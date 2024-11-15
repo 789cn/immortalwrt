@@ -25,8 +25,8 @@ luci-i18n-ddns-go-zh-cn    #汉化
 luci-app-netdata           #实时监控
 luci-app-upnp              #RT
 luci-app-cpulimit          #CPU频率设置
-luci-app-socat             #端口转发
-luci-app-wireguard         #VPN回家-没防火墙的好用
+luci-app-socat             #端口转发-没防火墙的好用
+luci-app-wireguard         #VPN回家
 ```
 
 如何安装docker
