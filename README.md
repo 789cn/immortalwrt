@@ -1,6 +1,6 @@
 # immortalwrt
 自用immortalwrt
-
+后台 10.0.0.1 密码 空
 安装的插件
 ```
 luci-i18n-firewall-zh-cn      #防火墙汉化
