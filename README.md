@@ -29,3 +29,17 @@ luci-app-cpulimit          #CPU频率设置
 luci-app-socat             #端口转发
 luci-app-wireguard         #VPN回家-没防火墙的好用
 ```
+
+如何安装docker
+确定软件包是有足够的空间的，如果你安装的是我扩容之后的固件，自然没问题。docker和相关组件可能占用1g
+```
+luci-i18n-dockerman-zh-cn
+```
+上述名称是docker的名称。我们可以在软件包那里先更新列表，然后搜索该组件，并安装即可。比较大，需要好几分钟。
+
+另外一个方法是采用命令行安装。
+```
+opkg update 
+opkg install luci-i18n-dockerman-zh-cn
+```
+安装成功后，会出现在左侧菜单栏。首次使用建议重启一次路由器。
